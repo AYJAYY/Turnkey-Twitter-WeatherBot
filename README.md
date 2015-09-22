@@ -1,5 +1,5 @@
 # Turnkey-Twitter-WeatherBot
-Simple  python script to run a twitter weatherbot using wunderground's API written in Python 2.*
+Simple script to run a twitter weatherbot using wunderground's API written in Python 2.*
 
 Requirements:
 Python 2.*: json, urllib2, birdy, tweepy, python-pip<br>
