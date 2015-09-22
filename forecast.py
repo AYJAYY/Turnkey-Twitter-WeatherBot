@@ -48,9 +48,9 @@ if wind > 0.0:
     #Tweet out the current weather with numerical wind speed.
     tweet("Current weather in London, UK: " + str(temp_c) +
     degree + "C" + " and " + str(weather) + ". Wind: " + str(wind) +
-    " KPH #weather #london #news #UK http://is.gd/UyLFWz")
+    " KPH #weather #london #news #UK http://is.gd/UyLFWz") # The link here goes to the LONDON wundeground page.
 else:
     #Tweet out the current weather with text.
     tweet("Current weather in London, UK: " + str(temp_c) +
     degree + "C" + " and " + str(weather) +
-    ". Little to no wind. #weather #london #news #UK http://is.gd/UyLFWz")
+    ". Little to no wind. #weather #london #news #UK http://is.gd/UyLFWz") # The link here goes to the LONDON wundeground page.
