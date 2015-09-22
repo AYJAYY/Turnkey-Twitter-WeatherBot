@@ -12,7 +12,7 @@ CONSUMER_SECRET = "YOUR CONSUMER SECRET HERE"
 ACCESS_TOKEN = "YOUR ACCESS TOKEN HERE"
 ACCESS_TOKEN_SECRET = "YOUR ACCESS TOKEN SECRET"
  
-#Get the wundergound json file to be read
+#Get the wundergound json file to be read - THIS LINK MUST BE CHANGED IF YOU WANT TO CHANGE WEATHER LOCATION - Default is GB - London
 f = urllib2.urlopen("http://api.wunderground.com/api/YOUR-WUNDERGROUND-API-KEY-HERE/geolookup/conditions/q/GB/London.json")
 #read from the json file
 json_string = f.read()
