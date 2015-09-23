@@ -7,13 +7,13 @@ from birdy.twitter import UserClient
 import tweepy
  
 #Twitter Keys
-CONSUMER_KEY = "YOUR CONSUMER KEY HERE"
-CONSUMER_SECRET = "YOUR CONSUMER SECRET HERE"
-ACCESS_TOKEN = "YOUR ACCESS TOKEN HERE"
-ACCESS_TOKEN_SECRET = "YOUR ACCESS TOKEN SECRET"
+CONSUMER_KEY = "raG9oBdjOKEkwAXXTHzuY0uqt"
+CONSUMER_SECRET = " StO81j9QpgRZXgjw0jHCSZt6SARMT23zg4DzOdjE8A2sD1cE6G"
+ACCESS_TOKEN = " 489164437-2VFwrUg2Wtn2hidc6kVeN9T7rKPWgfs4fRBUt7Lj"
+ACCESS_TOKEN_SECRET = "JB5BSKqR4veacRv1CeTMQRAegSWGena7xxiNhqyc4s2G7"
  
 #Get the wundergound json file to be read - THIS LINK MUST BE CHANGED IF YOU WANT TO CHANGE WEATHER LOCATION - Default is GB - London
-f = urllib2.urlopen("http://api.wunderground.com/api/YOUR-WUNDERGROUND-API-KEY-HERE/geolookup/conditions/q/GB/London.json")
+f = urllib2.urlopen("http://api.wunderground.com/api/64d9bc1797c1cf51/geolookup/conditions/q/GB/Grimsby.json")
 #read from the json file
 json_string = f.read()
 #parse the json file
@@ -46,11 +46,11 @@ def tweet(message):
  
 if wind > 0.0:
     #Tweet out the current weather with numerical wind speed.
-    tweet("Current weather in London, UK: " + str(temp_c) +
+    tweet("Current weather in Grimsby, UK: " + str(temp_c) +
     degree + "C" + " and " + str(weather) + ". Wind: " + str(wind) +
-    " KPH #weather #london #news #UK http://is.gd/UyLFWz") # The link here goes to the LONDON wundeground page.
+    " KPH #weather #Grimsby #news #UK http://www.wunderground.com/personal-weather-station/dashboard?ID=IGRIMSBY5") # The link here goes to the LONDON wundeground page.
 else:
     #Tweet out the current weather with text.
-    tweet("Current weather in London, UK: " + str(temp_c) +
+    tweet("Current weather in Grimsby, UK: " + str(temp_c) +
     degree + "C" + " and " + str(weather) +
     ". Little to no wind. #weather #london #news #UK http://is.gd/UyLFWz") # The link here goes to the LONDON wundeground page.
