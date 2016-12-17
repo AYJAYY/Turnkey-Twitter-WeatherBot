@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Weather Twitter Bot - AJBBB - 7/8/2015 v2.*
- 
+
 import urllib2
 import json
 from birdy.twitter import UserClient
