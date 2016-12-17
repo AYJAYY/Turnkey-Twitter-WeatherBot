@@ -1,4 +1,7 @@
 # Turnkey-Twitter-WeatherBot
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6b9b75d059e54849a3aaec631b935791)](https://www.codacy.com/app/ajbbb/Turnkey-Twitter-WeatherBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AYJAYY/Turnkey-Twitter-WeatherBot&amp;utm_campaign=badger)
+
 Simple script to run a twitter weatherbot using wunderground's API written in Python 2.*
 
 Requirements:
